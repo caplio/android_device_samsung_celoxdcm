@@ -33,7 +33,7 @@ BOARD_KERNEL_BASE := 0x40400000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom usb_id_pin_rework=true no_console_suspend=true
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01400000
-TARGET_PREBUILT_KERNEL := device/samsung/skyrocket/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/celoxdcm/kernel
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -49,8 +49,8 @@ TARGET_USERIMAGES_USE_F2FS := true
 BOARD_HAS_DOWNLOAD_MODE := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_SUPPRESS_EMMC_WIPE := true
-TARGET_RECOVERY_DEVICE_DIRS += device/samsung/skyrocket
-TARGET_RECOVERY_FSTAB := device/samsung/skyrocket/fstab.qcom
+TARGET_RECOVERY_DEVICE_DIRS += device/samsung/celoxdcm
+TARGET_RECOVERY_FSTAB := device/samsung/celoxdcm/fstab.qcom
 
 # TWRP
 DEVICE_RESOLUTION := 480x800

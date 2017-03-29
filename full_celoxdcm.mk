@@ -23,12 +23,12 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-# Inherit from skyrocket device
-$(call inherit-product, device/samsung/skyrocket/omni_skyrocket.mk)
+# Inherit from celoxdcm device
+$(call inherit-product, device/samsung/celoxdcm/omni_celoxdcm.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_skyrocket
-PRODUCT_DEVICE := skyrocket
+PRODUCT_NAME := full_celoxdcm
+PRODUCT_DEVICE := celoxdcm
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SAMSUNG-SGH-I727
+PRODUCT_MODEL := SAMSUNG-SC-03D

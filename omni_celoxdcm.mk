@@ -27,12 +27,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_COPY_FILES += \
-    device/samsung/skyrocket/kernel:kernel
+    device/samsung/celoxdcm/kernel:kernel
 
-PRODUCT_COPY_FILES += device/samsung/skyrocket/fstab.qcom:recovery/root/fstab.qcom
+PRODUCT_COPY_FILES += device/samsung/celoxdcm/fstab.qcom:recovery/root/fstab.qcom
 
-PRODUCT_NAME := omni_skyrocket
-PRODUCT_DEVICE := skyrocket
+PRODUCT_NAME := omni_celoxdcm
+PRODUCT_DEVICE := celoxdcm
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SAMSUNG-SGH-I727
+PRODUCT_MODEL := SAMSUNG-SC-03D
